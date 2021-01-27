@@ -1,0 +1,49 @@
+.app {
+  background: #4eebbc;
+  height: 660px;
+  padding: 30px;
+}
+
+@keyframes slideIt {
+  from {background-color: rgb(8, 8, 8);left:200px; top:150px;}
+  to {background-color: rgb(61, 88, 88);left:1000px; top:150px;}
+}
+
+.banner
+{
+  background-color: rgb(247, 141, 41);
+  border-radius: 200px;
+  color: aquamarine;
+  position:relative;
+  height: 50px;
+  width: 220px;
+  text-align: center;
+  padding-top: 15px;
+  animation-name: slideIt;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  position: relative;
+  top: 300px;
+  border-radius: 30px;
+  width: fit-content;
+  min-width: auto;
+  padding: 20px;
+  margin: auto;
+  }
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
