@@ -8,8 +8,8 @@ function TodoList({index, todo, completeTodo, removeTodo })
       style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}>
       {todo.text}
       <div>
-        <button onClick={() => completeTodo(index)}>Complete</button>
-        <button onClick={() => removeTodo(index)}>x</button>
+        <button id="complete-button" onClick={() => completeTodo(index)}>Complete</button>
+        <button id="close-button" onClick={() => removeTodo(index)}>x</button>
       </div>
     </div>
   );
