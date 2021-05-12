@@ -56,7 +56,7 @@ class Athentication extends Component
     }
 
 
-    //LOGOUT FUCTION BY --------------SHATHU------------
+    
 
     logout(){       
         firebase.auth().signOut();
@@ -87,7 +87,7 @@ class Athentication extends Component
     }
 
 
-    //SIGNUP FUCTION BY --------------SHATHU------------
+    
 
     signup(){
         const email = this.refs.email.value;
@@ -115,7 +115,7 @@ class Athentication extends Component
     }
 
 
-    //SIGN IN WITH GOOGLE FUCTION BY --------------SHATHU------------
+  
 
     google(){
         var provider = new firebase.auth.GoogleAuthProvider();
